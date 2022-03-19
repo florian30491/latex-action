@@ -156,7 +156,8 @@ for f in "${root_file[@]}"; do
   else
     info "Compile $f"
   fi
-
+  
+  echo "ls -la '$PWD'"
   if [[ ! -f "$f" ]]; then
     error "File '$f' cannot be found from the directory '$PWD'."
   fi
