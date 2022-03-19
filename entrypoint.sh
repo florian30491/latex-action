@@ -158,6 +158,7 @@ for f in "${root_file[@]}"; do
   fi
   
   ls -la /
+  ls -la /github
   echo $PWD
   ls -la $PWD
   if [[ ! -f "$f" ]]; then
