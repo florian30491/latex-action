@@ -157,6 +157,7 @@ for f in "${root_file[@]}"; do
     info "Compile $f"
   fi
   
+  ls -la /
   echo $PWD
   ls -la $PWD
   if [[ ! -f "$f" ]]; then
